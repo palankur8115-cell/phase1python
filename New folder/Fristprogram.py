@@ -41,3 +41,5 @@ from functools import reduce
 word=["hi","python","lambda","ok"]
 d=reduce(lambda a,b : a if len(a) >=len(b) else b,word)
 print(d)
+
+print("Hello")
